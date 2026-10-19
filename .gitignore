@@ -1,0 +1,15 @@
+# Keep any secrets completely hidden
+.env
+
+# Jupyter Notebook artifacts
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python execution caches
+__pycache__/
+*.pyc
+
+# Local virtual environments
+.venv/
+env/
+venv/
