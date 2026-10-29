@@ -8,7 +8,7 @@ load_dotenv()
 
 def analyze_customer_feedback(raw_review_text: str) -> str:
     """
-    Securely route unstructured customer feedback to Claude Haiku 5.5.
+    Securely route unstructured customer feedback to Claude Haiku 4.5.
     Fetch directly from environment variables for safe open-source distribution.
     """
     # Look for variable globally on the machine running the code
